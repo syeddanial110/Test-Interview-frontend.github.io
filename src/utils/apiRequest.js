@@ -1,8 +1,8 @@
 import axios from 'axios'
 import { getToken, autoLogout } from './Auth'
 
-export const apiBaseUrl = 'http://localhost:8080/api/'
-export const fileBaseUrl = 'http://localhost:8080/'
+export const apiBaseUrl = 'https://interview-test-backend.onrender.com/api/'
+export const fileBaseUrl = 'https://interview-test-backend.onrender.com/'
 export const production = false
 export function getCommonHeaders(h) {
   var headers = {
